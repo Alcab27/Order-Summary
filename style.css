@@ -3,9 +3,9 @@
   --Pale-blue: #e0e8ff;
   --Bright-blue: #3829e0;
   /* Neutral colors */
-  --Very-pale-blue: rgb(245, 247, 255);
-  --Desaturated-blue: rgb(114, 128, 167);
-  --Dark-blue: rgb(31, 47, 86);
+  --Very-pale-blue: #f5f7ff;
+  --Desaturated-blue: #7280a7;
+  --Dark-blue: #1f2f56;
 }
 *{
   box-sizing: border-box;
@@ -15,4 +15,12 @@
 html{
   font-size: 62.5%;
   font-family: 'Red Hat Display', sans-serif;
+}
+.main-container{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-color: var(--Very-pale-blue);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
