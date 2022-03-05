@@ -2,6 +2,7 @@
   /* Primary colors */
   --Pale-blue: #e0e8ff;
   --Bright-blue: #3829e0;
+  --Bright-blue-light: #6d62e6;
   /* Neutral colors */
   --Very-pale-blue: #f5f7ff;
   --Desaturated-blue: #7280a7;
@@ -105,6 +106,10 @@ html{
   font-size: 1.1rem;
   font-weight: 600;
 }
+.change a:hover{
+  text-decoration: none;
+  color: var(--Bright-blue-light);
+}
 .buttons{
   width: 80%;
   height: auto;
@@ -125,8 +130,15 @@ html{
   cursor: pointer;
   margin-bottom: 24px;
 }
-.buttons p{
+.primary-button:hover{
+  background-color: var(--Bright-blue-light);
+}
+.buttons a{
   font-size: 1.1rem;
   color: var(--Desaturated-blue);
   font-weight: bold;
+  text-decoration: none;
+}
+.buttons a:hover{
+  color: black;
 }
